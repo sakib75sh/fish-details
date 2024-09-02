@@ -24,6 +24,7 @@ class HomePage extends StatelessWidget {
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(8)),
               tileColor: const Color.fromARGB(255, 131, 247, 139),
+              //-------------Test Changes----------
               title: Text(
                 blog[index].commonName,
                 style:
