@@ -26,6 +26,7 @@ class HomePage extends StatelessWidget {
               tileColor: const Color.fromARGB(255, 131, 247, 139),
               //-------------Test Changes----------
               //-------------remote to local-------
+              // ------------Image added
               title: Text(
                 blog[index].commonName,
                 style:
