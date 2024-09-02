@@ -25,6 +25,7 @@ class HomePage extends StatelessWidget {
                   borderRadius: BorderRadius.circular(8)),
               tileColor: const Color.fromARGB(255, 131, 247, 139),
               //-------------Test Changes----------
+              //-------------remote to local-------
               title: Text(
                 blog[index].commonName,
                 style:
