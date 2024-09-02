@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
                   pathParameters: {'id': blog[index].id.toString()}),
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(8)),
-              tileColor: Colors.amberAccent,
+              tileColor: const Color.fromARGB(255, 131, 247, 139),
               title: Text(
                 blog[index].commonName,
                 style:
@@ -46,6 +46,7 @@ class HomePage extends StatelessWidget {
                   Text(
                     blog[index].details,
                     maxLines: 2,
+                    style: const TextStyle(color: Colors.black),
                     textAlign: TextAlign.justify,
                   )
                 ],
